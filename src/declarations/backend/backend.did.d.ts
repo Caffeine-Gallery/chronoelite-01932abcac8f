@@ -7,6 +7,7 @@ export interface Brand {
   'websiteUrl' : string,
   'name' : string,
   'description' : string,
+  'keyProduct' : string,
   'imageUrl' : string,
   'logoUrl' : string,
 }

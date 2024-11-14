@@ -9,6 +9,7 @@ type Brand =
    description: text;
    features: vec text;
    imageUrl: text;
+   keyProduct: text;
    logoUrl: text;
    name: text;
    websiteUrl: text;
