@@ -5,8 +5,6 @@ export const idlFactory = ({ IDL }) => {
     'name' : IDL.Text,
     'description' : IDL.Text,
     'keyProduct' : IDL.Text,
-    'imageUrl' : IDL.Text,
-    'logoUrl' : IDL.Text,
   });
   const ContactForm = IDL.Record({
     'name' : IDL.Text,

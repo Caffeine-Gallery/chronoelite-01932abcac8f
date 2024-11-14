@@ -8,8 +8,6 @@ export interface Brand {
   'name' : string,
   'description' : string,
   'keyProduct' : string,
-  'imageUrl' : string,
-  'logoUrl' : string,
 }
 export interface ContactForm {
   'name' : string,
