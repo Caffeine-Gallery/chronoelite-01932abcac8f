@@ -1,0 +1,19 @@
+type ContactForm = 
+ record {
+   email: text;
+   message: text;
+   name: text;
+ };
+type Brand = 
+ record {
+   description: text;
+   features: vec text;
+   imageUrl: text;
+   logoUrl: text;
+   name: text;
+   websiteUrl: text;
+ };
+service : {
+  getBrands: () -> (vec Brand) query;
+  submitContact: (ContactForm) -> ();
+}
